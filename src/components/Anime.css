@@ -87,6 +87,7 @@ img {
 }
 
 .game-details {
+  position: fixed;
   padding: 2rem;
   color: white;
   background: black;
@@ -114,11 +115,19 @@ img {
   }
 
   .page-title {
-    top: 4rem;
     right: -10rem;
     font-size: 1.6rem;
   }
   .game-details {
     margin-top: 9rem;
+  }
+}
+@media screen and (max-width: 300px) {
+  main {
+    width: 21rem;
+  }
+
+  .page-title {
+    font-size: 1rem;
   }
 }
