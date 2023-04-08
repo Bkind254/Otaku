@@ -13,7 +13,7 @@ main {
 
 @media screen and (max-width: 720px) {
   main {
-    width: 38rem;
+    width: 35rem;
     height: 50rem;
   }
 }
