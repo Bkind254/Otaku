@@ -17,6 +17,7 @@ const Anime = ({
       {currentPage === "home" && <img src={imageUrl} alt="anime image" />}
       <h1 className="page-title">{title}</h1>
       <div className="navbar" id="myTopnav">
+        <h1>OTAKU</h1>
         <div className="icons">
           <ul>
             <a href="#" onClick={() => setCurrentPage("home")} rel="noreferrer">
@@ -45,6 +46,7 @@ const Anime = ({
           </ul>
         </div>
       </div>
+
       {currentPage === "about" && (
         <div className="game-details">
           <h1 className="details-title">{title}</h1>
